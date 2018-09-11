@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3066D97268EC04B1882B1026 /* libPods-RequestAndLogManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDBE236562CB7C5C17CD8F0 /* libPods-RequestAndLogManager.a */; };
+		BB70444B2147EF7800F60978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB70444A2147EF7800F60978 /* AppDelegate.m */; };
+		BB70444E2147EF7800F60978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB70444D2147EF7800F60978 /* ViewController.m */; };
+		BB7044512147EF7800F60978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70444F2147EF7800F60978 /* Main.storyboard */; };
+		BB7044532147EF7800F60978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7044522147EF7800F60978 /* Assets.xcassets */; };
+		BB7044562147EF7800F60978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7044542147EF7800F60978 /* LaunchScreen.storyboard */; };
+		BB7044592147EF7800F60978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7044582147EF7800F60978 /* main.m */; };
+		BB7044632147EF7900F60978 /* RequestAndLogManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7044622147EF7900F60978 /* RequestAndLogManagerTests.m */; };
+		BB70446E2147EF7900F60978 /* RequestAndLogManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB70446D2147EF7900F60978 /* RequestAndLogManagerUITests.m */; };
+		BB7044872147EFD500F60978 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB70447C2147EFD500F60978 /* LogManager.m */; };
+		BB7044882147EFD500F60978 /* ZMLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB70447D2147EFD500F60978 /* ZMLogView.m */; };
+		BB7044892147EFD500F60978 /* ZMBaseEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7044822147EFD500F60978 /* ZMBaseEngine.m */; };
+		BB70448A2147EFD500F60978 /* ZMWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7044842147EFD500F60978 /* ZMWKWebViewVC.m */; };
+		BB70448B2147EFD500F60978 /* ZMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7044862147EFD500F60978 /* ZMEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB70445F2147EF7900F60978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB70443E2147EF7800F60978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7044452147EF7800F60978;
+			remoteInfo = RequestAndLogManager;
+		};
+		BB70446A2147EF7900F60978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB70443E2147EF7800F60978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7044452147EF7800F60978;
+			remoteInfo = RequestAndLogManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DDBE236562CB7C5C17CD8F0 /* libPods-RequestAndLogManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RequestAndLogManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0648DF814C22FFE69548E7 /* Pods-RequestAndLogManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestAndLogManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RequestAndLogManager/Pods-RequestAndLogManager.debug.xcconfig"; sourceTree = "<group>"; };
+		8A3E2E181353E063F7BFF773 /* Pods-RequestAndLogManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RequestAndLogManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-RequestAndLogManager/Pods-RequestAndLogManager.release.xcconfig"; sourceTree = "<group>"; };
+		BB7044462147EF7800F60978 /* RequestAndLogManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RequestAndLogManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7044492147EF7800F60978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB70444A2147EF7800F60978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB70444C2147EF7800F60978 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB70444D2147EF7800F60978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB7044502147EF7800F60978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB7044522147EF7800F60978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7044552147EF7800F60978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB7044572147EF7800F60978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7044582147EF7800F60978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB70445E2147EF7900F60978 /* RequestAndLogManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestAndLogManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7044622147EF7900F60978 /* RequestAndLogManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestAndLogManagerTests.m; sourceTree = "<group>"; };
+		BB7044642147EF7900F60978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7044692147EF7900F60978 /* RequestAndLogManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestAndLogManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB70446D2147EF7900F60978 /* RequestAndLogManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestAndLogManagerUITests.m; sourceTree = "<group>"; };
+		BB70446F2147EF7900F60978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB70447C2147EFD500F60978 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
+		BB70447D2147EFD500F60978 /* ZMLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMLogView.m; sourceTree = "<group>"; };
+		BB70447E2147EFD500F60978 /* ZMLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMLogView.h; sourceTree = "<group>"; };
+		BB70447F2147EFD500F60978 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
+		BB7044812147EFD500F60978 /* ZMWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMWKWebViewVC.h; sourceTree = "<group>"; };
+		BB7044822147EFD500F60978 /* ZMBaseEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMBaseEngine.m; sourceTree = "<group>"; };
+		BB7044832147EFD500F60978 /* ZMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMEngine.h; sourceTree = "<group>"; };
+		BB7044842147EFD500F60978 /* ZMWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMWKWebViewVC.m; sourceTree = "<group>"; };
+		BB7044852147EFD500F60978 /* ZMBaseEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMBaseEngine.h; sourceTree = "<group>"; };
+		BB7044862147EFD500F60978 /* ZMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7044432147EF7800F60978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3066D97268EC04B1882B1026 /* libPods-RequestAndLogManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB70445B2147EF7900F60978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7044662147EF7900F60978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8655662EB451FAED13EE6F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DDBE236562CB7C5C17CD8F0 /* libPods-RequestAndLogManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D67BF773C453FEBBBEF03CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F0648DF814C22FFE69548E7 /* Pods-RequestAndLogManager.debug.xcconfig */,
+				8A3E2E181353E063F7BFF773 /* Pods-RequestAndLogManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB70443D2147EF7800F60978 = {
+			isa = PBXGroup;
+			children = (
+				BB7044482147EF7800F60978 /* RequestAndLogManager */,
+				BB7044612147EF7900F60978 /* RequestAndLogManagerTests */,
+				BB70446C2147EF7900F60978 /* RequestAndLogManagerUITests */,
+				BB7044472147EF7800F60978 /* Products */,
+				9D67BF773C453FEBBBEF03CA /* Pods */,
+				8655662EB451FAED13EE6F5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7044472147EF7800F60978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7044462147EF7800F60978 /* RequestAndLogManager.app */,
+				BB70445E2147EF7900F60978 /* RequestAndLogManagerTests.xctest */,
+				BB7044692147EF7900F60978 /* RequestAndLogManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7044482147EF7800F60978 /* RequestAndLogManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB7044802147EFD500F60978 /* HttpRequest */,
+				BB70447B2147EFD500F60978 /* LogManager */,
+				BB7044492147EF7800F60978 /* AppDelegate.h */,
+				BB70444A2147EF7800F60978 /* AppDelegate.m */,
+				BB70444C2147EF7800F60978 /* ViewController.h */,
+				BB70444D2147EF7800F60978 /* ViewController.m */,
+				BB70444F2147EF7800F60978 /* Main.storyboard */,
+				BB7044522147EF7800F60978 /* Assets.xcassets */,
+				BB7044542147EF7800F60978 /* LaunchScreen.storyboard */,
+				BB7044572147EF7800F60978 /* Info.plist */,
+				BB7044582147EF7800F60978 /* main.m */,
+			);
+			path = RequestAndLogManager;
+			sourceTree = "<group>";
+		};
+		BB7044612147EF7900F60978 /* RequestAndLogManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB7044622147EF7900F60978 /* RequestAndLogManagerTests.m */,
+				BB7044642147EF7900F60978 /* Info.plist */,
+			);
+			path = RequestAndLogManagerTests;
+			sourceTree = "<group>";
+		};
+		BB70446C2147EF7900F60978 /* RequestAndLogManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB70446D2147EF7900F60978 /* RequestAndLogManagerUITests.m */,
+				BB70446F2147EF7900F60978 /* Info.plist */,
+			);
+			path = RequestAndLogManagerUITests;
+			sourceTree = "<group>";
+		};
+		BB70447B2147EFD500F60978 /* LogManager */ = {
+			isa = PBXGroup;
+			children = (
+				BB70447E2147EFD500F60978 /* ZMLogView.h */,
+				BB70447D2147EFD500F60978 /* ZMLogView.m */,
+				BB70447F2147EFD500F60978 /* LogManager.h */,
+				BB70447C2147EFD500F60978 /* LogManager.m */,
+			);
+			path = LogManager;
+			sourceTree = "<group>";
+		};
+		BB7044802147EFD500F60978 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BB7044862147EFD500F60978 /* ZMEngine.m */,
+				BB7044832147EFD500F60978 /* ZMEngine.h */,
+				BB7044852147EFD500F60978 /* ZMBaseEngine.h */,
+				BB7044822147EFD500F60978 /* ZMBaseEngine.m */,
+				BB7044812147EFD500F60978 /* ZMWKWebViewVC.h */,
+				BB7044842147EFD500F60978 /* ZMWKWebViewVC.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7044452147EF7800F60978 /* RequestAndLogManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7044722147EF7900F60978 /* Build configuration list for PBXNativeTarget "RequestAndLogManager" */;
+			buildPhases = (
+				6D0CE1AE0A60895857A0B398 /* [CP] Check Pods Manifest.lock */,
+				BB7044422147EF7800F60978 /* Sources */,
+				BB7044432147EF7800F60978 /* Frameworks */,
+				BB7044442147EF7800F60978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RequestAndLogManager;
+			productName = RequestAndLogManager;
+			productReference = BB7044462147EF7800F60978 /* RequestAndLogManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB70445D2147EF7900F60978 /* RequestAndLogManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7044752147EF7900F60978 /* Build configuration list for PBXNativeTarget "RequestAndLogManagerTests" */;
+			buildPhases = (
+				BB70445A2147EF7900F60978 /* Sources */,
+				BB70445B2147EF7900F60978 /* Frameworks */,
+				BB70445C2147EF7900F60978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7044602147EF7900F60978 /* PBXTargetDependency */,
+			);
+			name = RequestAndLogManagerTests;
+			productName = RequestAndLogManagerTests;
+			productReference = BB70445E2147EF7900F60978 /* RequestAndLogManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB7044682147EF7900F60978 /* RequestAndLogManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7044782147EF7900F60978 /* Build configuration list for PBXNativeTarget "RequestAndLogManagerUITests" */;
+			buildPhases = (
+				BB7044652147EF7900F60978 /* Sources */,
+				BB7044662147EF7900F60978 /* Frameworks */,
+				BB7044672147EF7900F60978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB70446B2147EF7900F60978 /* PBXTargetDependency */,
+			);
+			name = RequestAndLogManagerUITests;
+			productName = RequestAndLogManagerUITests;
+			productReference = BB7044692147EF7900F60978 /* RequestAndLogManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB70443E2147EF7800F60978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = chenzm;
+				TargetAttributes = {
+					BB7044452147EF7800F60978 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BB70445D2147EF7900F60978 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB7044452147EF7800F60978;
+					};
+					BB7044682147EF7900F60978 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB7044452147EF7800F60978;
+					};
+				};
+			};
+			buildConfigurationList = BB7044412147EF7800F60978 /* Build configuration list for PBXProject "RequestAndLogManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB70443D2147EF7800F60978;
+			productRefGroup = BB7044472147EF7800F60978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7044452147EF7800F60978 /* RequestAndLogManager */,
+				BB70445D2147EF7900F60978 /* RequestAndLogManagerTests */,
+				BB7044682147EF7900F60978 /* RequestAndLogManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7044442147EF7800F60978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7044562147EF7800F60978 /* LaunchScreen.storyboard in Resources */,
+				BB7044532147EF7800F60978 /* Assets.xcassets in Resources */,
+				BB7044512147EF7800F60978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB70445C2147EF7900F60978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7044672147EF7900F60978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D0CE1AE0A60895857A0B398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RequestAndLogManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7044422147EF7800F60978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7044872147EFD500F60978 /* LogManager.m in Sources */,
+				BB7044892147EFD500F60978 /* ZMBaseEngine.m in Sources */,
+				BB70448B2147EFD500F60978 /* ZMEngine.m in Sources */,
+				BB70444E2147EF7800F60978 /* ViewController.m in Sources */,
+				BB7044882147EFD500F60978 /* ZMLogView.m in Sources */,
+				BB7044592147EF7800F60978 /* main.m in Sources */,
+				BB70444B2147EF7800F60978 /* AppDelegate.m in Sources */,
+				BB70448A2147EFD500F60978 /* ZMWKWebViewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB70445A2147EF7900F60978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7044632147EF7900F60978 /* RequestAndLogManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7044652147EF7900F60978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB70446E2147EF7900F60978 /* RequestAndLogManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7044602147EF7900F60978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7044452147EF7800F60978 /* RequestAndLogManager */;
+			targetProxy = BB70445F2147EF7900F60978 /* PBXContainerItemProxy */;
+		};
+		BB70446B2147EF7900F60978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7044452147EF7800F60978 /* RequestAndLogManager */;
+			targetProxy = BB70446A2147EF7900F60978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB70444F2147EF7800F60978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7044502147EF7800F60978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB7044542147EF7800F60978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7044552147EF7800F60978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7044702147EF7900F60978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB7044712147EF7900F60978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7044732147EF7900F60978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0648DF814C22FFE69548E7 /* Pods-RequestAndLogManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = RequestAndLogManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.RequestAndLogManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB7044742147EF7900F60978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3E2E181353E063F7BFF773 /* Pods-RequestAndLogManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = RequestAndLogManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.RequestAndLogManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB7044762147EF7900F60978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RequestAndLogManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.RequestAndLogManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RequestAndLogManager.app/RequestAndLogManager";
+			};
+			name = Debug;
+		};
+		BB7044772147EF7900F60978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RequestAndLogManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.RequestAndLogManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RequestAndLogManager.app/RequestAndLogManager";
+			};
+			name = Release;
+		};
+		BB7044792147EF7900F60978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RequestAndLogManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.RequestAndLogManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RequestAndLogManager;
+			};
+			name = Debug;
+		};
+		BB70447A2147EF7900F60978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RequestAndLogManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.RequestAndLogManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RequestAndLogManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7044412147EF7800F60978 /* Build configuration list for PBXProject "RequestAndLogManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7044702147EF7900F60978 /* Debug */,
+				BB7044712147EF7900F60978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7044722147EF7900F60978 /* Build configuration list for PBXNativeTarget "RequestAndLogManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7044732147EF7900F60978 /* Debug */,
+				BB7044742147EF7900F60978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7044752147EF7900F60978 /* Build configuration list for PBXNativeTarget "RequestAndLogManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7044762147EF7900F60978 /* Debug */,
+				BB7044772147EF7900F60978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7044782147EF7900F60978 /* Build configuration list for PBXNativeTarget "RequestAndLogManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7044792147EF7900F60978 /* Debug */,
+				BB70447A2147EF7900F60978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB70443E2147EF7800F60978 /* Project object */;
+}
